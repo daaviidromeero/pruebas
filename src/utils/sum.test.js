@@ -8,6 +8,6 @@ describe('Función Suma', () => {
   });
 
   it('Suma debe sumar correctamente dos numeros positivos', () => {
-    expect(sum(3,4)).toBe(7);
+    expect(sum(3,4)).toBe(-7);
   });
 });
